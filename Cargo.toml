@@ -12,6 +12,11 @@ description = "Per-base mismatch-rate profile from BAM MD tags — Rust port of 
 name = "rsomics-mismatch-profile"
 path = "src/main.rs"
 
+
+[lib]
+name = "rsomics_mismatch_profile"
+path = "src/lib.rs"
+doctest = false
 [dependencies]
 rsomics-common = "0.6"
 rsomics-bamio = "0.1"
